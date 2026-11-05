@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 5
+names: ['leaves', 'pavement', 'plants', 'weed', 'weedling']
+
+roboflow:
+  workspace: jakubs-workspace-hmvz5
+  project: weed-detection-kzkil
+  version: 1
+  license: Private
+  url: https://app.roboflow.com/jakubs-workspace-hmvz5/weed-detection-kzkil/1
