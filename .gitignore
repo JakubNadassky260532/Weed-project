@@ -1,0 +1,20 @@
+# Python environment
+venv/
+.venv/
+__pycache__/
+*.pyc
+
+# Secrets
+.env
+
+# Training output and downloaded datasets (recreatable)
+runs/
+Weed-*/
+yolo_runs/
+
+# Model weights
+*.pt
+
+# OS junk
+.DS_Store
+Thumbs.db
