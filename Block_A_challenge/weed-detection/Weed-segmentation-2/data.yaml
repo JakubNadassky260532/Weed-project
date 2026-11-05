@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['weed']
+
+roboflow:
+  workspace: jakubs-workspace-hmvz5
+  project: weed-segmentation-edo5h
+  version: 2
+  license: Private
+  url: https://app.roboflow.com/jakubs-workspace-hmvz5/weed-segmentation-edo5h/2

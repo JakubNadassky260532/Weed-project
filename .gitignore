@@ -9,8 +9,10 @@ __pycache__/
 
 # Training output and downloaded datasets (recreatable)
 runs/
-Weed-*/
-!Weed-segmentation-2/
+Weed-Detection-1/
+Weed-Detection-2/
+Weed-segmentation-1/
+Weed-segmentation-1-run2/
 yolo_runs/
 
 # Model weights
